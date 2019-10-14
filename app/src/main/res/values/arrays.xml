@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="photo">
+        <item>https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/9/9d/Disney_The_Lion_King_2019.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/b/bd/Spider-Man_Far_From_Home_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/8/85/Captain_Marvel_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/4/4c/Toy_Story_4_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/9/9a/Aladdin_%28Official_2019_Film_Poster%29.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/0/00/Fast_%26_Furious_Presents_Hobbs_%26_Shaw_-_theatrical_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/f/fd/How_to_Train_Your_Dragon_3_poster.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/0/0c/Black_Panther_film_poster.jpg</item>
+    </string-array>
+
+    <!--Book Title-->
+    <string-array name="title">
+        <item>Avengers: Endgame</item>
+        <item>The Lion King</item>
+        <item>Spider-Man: Far From Home</item>
+        <item>Captain Marvel</item>
+        <item>Toy Story 4</item>
+        <item>Aladdin</item>
+        <item>Hobbs \&amp; Shaw</item>
+        <item>How to Train Your Dragon: The Hidden World</item>
+        <item>Avengers: Infinity War</item>
+        <item>Black Panther</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>78 / 100</item>
+        <item>55 / 100</item>
+        <item>69 / 100</item>
+        <item>64 / 100</item>
+        <item>84 / 100</item>
+        <item>86 / 100</item>
+        <item>60 / 100</item>
+        <item>71 / 100</item>
+        <item>68 / 100</item>
+        <item>88 / 100</item>
+    </string-array>
+
+    <!--Book author-->
+    <string-array name="starring">
+        <item>Robert Downey Jr, Chris Evans, Chris Hemsworth</item>
+        <item>Donald Glover, Seth Rogen, Chiwetel Ejiofor</item>
+        <item>Tom Holland, Zendaya, Jake Gyllenhall</item>
+        <item>Brie Larson, Samuel L. Jackson, Ben Mendelsohn</item>
+        <item>Tom Hanks, Tim Allen, Keanu Reevs</item>
+        <item>Will Smith, Mena Massoud, Naomi Scott</item>
+        <item>Dwayne Johnson, Jason Statham, Vanessa Kirby</item>
+        <item>Jay Baruchel, America Ferrera, Kit Harrington</item>
+        <item>Robert Downey Jr, Chris Evans, Chris Hemsworth</item>
+        <item>Chadwick Boseman, Lupita Nyong\'o, Danai Gurira</item>
+    </string-array>
+
+    <!--Book description-->
+    <string-array name="description">
+        <item>Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.
+            It is the sequel to 2012 s The Avengers, 2015 s Avengers: Age of Ultron, and 2018 s Avengers: Infinity War, and the twenty-second film in the Marvel Cinematic Universe (MCU).
+            It was directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, and features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin.
+            In the film, the surviving members of the Avengers and their allies attempt to reverse the damage caused by Thanos in Infinity War.
+        </item>
+        <item>The Lion King is a 2019 American musical film directed and produced by Jon Favreau, written by Jeff Nathanson, and produced by Walt Disney Pictures.
+            It is a photorealistic computer-animated remake of Disneys traditionally animated 1994 film of the same name.
+            The film stars the voices of Donald Glover, Seth Rogen, Chiwetel Ejiofor, Alfre Woodard, Billy Eichner, John Kani, John Oliver, and Beyoncé Knowles-Carter, as well as James Earl Jones reprising his role from the original film.
+            The plot follows Simba, a young lion who must embrace his role as the rightful king of his native land following the murder of his father, Mufasa, at the hands of his uncle, Scar.
+        </item>
+        <item>Spider-Man: Far From Home is a 2019 American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios, and distributed by Sony Pictures Releasing.
+            It is the sequel to Spider-Man: Homecoming (2017) and the twenty-third film in the Marvel Cinematic Universe (MCU).
+            The film is directed by Jon Watts, written by Chris McKenna and Erik Sommers, and stars Tom Holland as Peter Parker / Spider-Man, alongside Samuel L. Jackson, Zendaya, Cobie Smulders, Jon Favreau, J. B. Smoove, Jacob Batalon, Martin Starr, Marisa Tomei, and Jake Gyllenhaal.
+            In Spider-Man: Far From Home, Parker is recruited by Nick Fury and Mysterio to face the Elementals while he is on a school trip to Europe.
+        </item>
+        <item>Captain Marvel is a 2019 American superhero film based on the Marvel Comics character Carol Danvers.
+            Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the twenty-first film in the Marvel Cinematic Universe (MCU).
+            The film is written and directed by Anna Boden and Ryan Fleck, with Geneva Robertson-Dworet also contributing to the screenplay. Brie Larson stars as Danvers, alongside Samuel L. Jackson, Ben Mendelsohn, Djimon Hounsou, Lee Pace, Lashana Lynch, Gemma Chan, Annette Bening, Clark Gregg, and Jude Law.
+            Set in 1995, the story follows Danvers as she becomes Captain Marvel after Earth is caught in the center of a galactic conflict between two alien civilizations.
+        </item>
+        <item>Toy Story 4 is a 2019 American computer-animated comedy film produced by Pixar Animation Studios for Walt Disney Pictures.
+            It is the fourth installment in Pixars Toy Story series, and the sequel to 2010 s Toy Story 3.
+            It was directed by Josh Cooley (in his feature directorial debut) from a screenplay by Andrew Stanton and Stephany Folsom; the three also conceived the story alongside John Lasseter, Rashida Jones, Will McCormack, Valerie LaPointe, and Martin Hynes.
+            The film stars the voices of Tom Hanks, Tim Allen, Annie Potts, Tony Hale, Keegan-Michael Key, Jordan Peele, Madeleine McGraw, Christina Hendricks, Keanu Reeves, Ally Maki, Jay Hernandez, Lori Alan, and Joan Cusack.
+        </item>
+        <item>Aladdin is a 2019 American musical fantasy film produced by Walt Disney Pictures.
+            Directed by Guy Ritchie, who co-wrote the screenplay with John August, it is a live-action adaptation of Disneys 1992 animated film of the same name, which is based on the eponymous tale from One Thousand and One Nights.
+            The film stars Will Smith, Mena Massoud, Naomi Scott, Marwan Kenzari, Navid Negahban, Nasim Pedrad, Billy Magnussen, and Numan Acar, as well as the voices of Alan Tudyk and Frank Welker.
+            The plot follows Aladdin, a street urchin, as he falls in love with Princess Jasmine, befriends a wish-granting Genie, and battles the wicked Jafar.
+        </item>
+        <item>Fast &amp; Furious Presents: Hobbs &amp; Shaw (also known simply as Hobbs &amp; Shaw and as Fast &amp; Furious: Hobbs &amp; Shaw internationally) is a 2019 American action adventure film that is a spin-off of The Fast and the Furious franchise.
+            The plot follows the unlikely team-up of the titular Luke Hobbs (Dwayne Johnson) and Deckard Shaw (Jason Statham), characters introduced in the main series, as they are forced to team up with Shaw s sister (Vanessa Kirby) when a cybernetically-enhanced terrorist (Idris Elba) and his organization threaten the world with a deadly virus.
+            The film is directed by David Leitch and written by Chris Morgan and Drew Pearce, from a story by Morgan.
+        </item>
+        <item>How to Train Your Dragon: The Hidden World is a 2019 American computer-animated action fantasy film loosely based on the book series of the same name by Cressida Cowell, produced by DreamWorks Animation and distributed by Universal Pictures.
+            It is the sequel to How to Train Your Dragon 2 (2014) and the final installment in the How to Train Your Dragon film trilogy.
+            Written and directed by Dean DeBlois, the film stars the voices of Jay Baruchel, America Ferrera, Cate Blanchett, Craig Ferguson, and F. Murray Abraham.
+            The films plot follows Hiccup seeking a dragon utopia called "The Hidden World" while coming to terms with Toothless new bond with a female Light Fury.
+        </item>
+        <item>Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.
+            It is the sequel to 2012 s The Avengers and 2015 s Avengers: Age of Ultron, and the nineteenth film in the Marvel Cinematic Universe (MCU).
+            It was directed by Anthony and Joe Russo, written by Christopher Markus and Stephen McFeely, and features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Benedict Cumberbatch, Don Cheadle, Tom Holland, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Anthony Mackie, Sebastian Stan, Danai Gurira, Letitia Wright, Dave Bautista, Zoe Saldana, Josh Brolin, and Chris Pratt.
+            In the film, the Avengers and the Guardians of the Galaxy attempt to prevent Thanos from amassing the all-powerful Infinity Stones in a quest to wipe out half of all life in the universe.
+        </item>
+        <item>Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name.
+            Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the eighteenth film in the Marvel Cinematic Universe (MCU).
+            The film is directed by Ryan Coogler, who co-wrote the screenplay with Joe Robert Cole, and stars Chadwick Boseman as T Challa / Black Panther, alongside Michael B. Jordan, Lupita Nyong o, Danai Gurira, Martin Freeman, Daniel Kaluuya, Letitia Wright, Winston Duke, Angela Bassett, Forest Whitaker, and Andy Serkis.
+            In Black Panther, T Challa is crowned king of Wakanda following his father s death, but his sovereignty is challenged by an adversary who plans to abandon the country s isolationist policies and begin a global revolution.
+        </item>
+    </string-array>
+
+    <string-array name="url">
+        <item>https://www.amazon.com/Marvel-Studios-Avengers-Endgame-Bonus/dp/B07QYQGXFT/ref=sr_1_1?crid=32ZZSD7UM5HIQ&amp;keywords=endgame&amp;qid=1570433271&amp;s=instant-video&amp;sprefix=endgame%2Cshop-instant-video%2C366&amp;sr=1-1</item>
+        <item>https://www.amazon.com/Lion-King-Donald-Glover/dp/B07V8FBXX9/ref=sr_1_1?keywords=the+lion+king&amp;qid=1570433327&amp;s=instant-video&amp;sr=1-1</item>
+        <item>https://www.amazon.com/Spider-Man-Far-Home-Tom-Holland/dp/B07TP6D1DP/ref=sr_1_1?crid=10O3TJQC1MGRK&amp;keywords=far+from+home+spiderman&amp;qid=1570433347&amp;s=instant-video&amp;sprefix=far+from+%2Cinstant-video%2C612&amp;sr=1-1</item>
+        <item>https://www.amazon.com/Marvel-Studios-Captain-Brie-Larson/dp/B07P76GTJR/ref=sr_1_1?crid=1JPQKK8H60ME0&amp;keywords=captain+marvel&amp;qid=1570433369&amp;s=instant-video&amp;sprefix=captain+marvel%2Cinstant-video%2C369&amp;sr=1-1</item>
+        <item>https://www.amazon.com/Toy-Story-4-Tom-Hanks/dp/B07T86S72Q/ref=sr_1_1?keywords=Toy+Story+4&amp;qid=1570433473&amp;s=instant-video&amp;sr=1-1</item>
+        <item>https://www.amazon.com/Aladdin-Will-Smith/dp/B07S3XZRM4/ref=sr_1_1?keywords=aladdin&amp;qid=1570433526&amp;s=instant-video&amp;sr=1-1</item>
+        <item>https://www.amazon.com/Fast-Furious-Presents-Hobbs-Shaw/dp/B07VH9ZZBV/ref=sr_1_1?crid=323JDJ4GMENM9&amp;keywords=hobbs+and+shaw&amp;qid=1570433548&amp;s=instant-video&amp;sprefix=Hobbs+%2Cinstant-video%2C394&amp;sr=1-1</item>
+        <item>https://www.amazon.com/How-Train-Your-Dragon-Hidden/dp/B07NRT4DCG/ref=sr_1_1?crid=4D99VU4PZR1I&amp;keywords=how+to+train+your+dragon+the+hidden+world&amp;qid=1570433572&amp;s=instant-video&amp;sprefix=how+to+train%2Cinstant-video%2C818&amp;sr=1-1</item>
+        <item>https://www.amazon.com/Avengers-Infinity-Robert-Downey-Jr/dp/B07CKK1LT3/ref=sr_1_1?crid=1L728YP59D3D1&amp;keywords=infinity+war&amp;qid=1570433591&amp;s=instant-video&amp;sprefix=infinity+%2Cinstant-video%2C-1&amp;sr=1-1</item>
+        <item>https://www.amazon.com/Black-Panther-Plus-Bonus-Content/dp/B079S4NZ2R/ref=sr_1_2?crid=1GOR370U4QYNC&amp;keywords=black+panther&amp;qid=1570433740&amp;s=instant-video&amp;sprefix=black+panther%2Cinstant-video%2C362&amp;sr=1-2</item>
+    </string-array>
+</resources>

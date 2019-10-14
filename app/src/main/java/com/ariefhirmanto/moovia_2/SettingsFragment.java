@@ -13,10 +13,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class NotificationsFragment extends Fragment {
+public class SettingsFragment extends Fragment {
 
 
-    public NotificationsFragment() {
+    public SettingsFragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +25,7 @@ public class NotificationsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tv_show, container, false);
+        return inflater.inflate(R.layout.fragment_settings, container, false);
     }
 
 }
