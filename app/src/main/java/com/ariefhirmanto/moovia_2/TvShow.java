@@ -6,8 +6,9 @@ import android.os.Parcelable;
 public class TvShow implements Parcelable {
     private String photo;
     private String title;
-    private String description;
-    private String actor;
+    private String release;
+    private String rating;
+    private String url;
 
     public String getPhoto() {
         return photo;
@@ -25,20 +26,28 @@ public class TvShow implements Parcelable {
         this.title = title;
     }
 
-    public String getDescription() {
-        return description;
+    public String getRelease() {
+        return release;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setRelease(String release) {
+        this.release = release;
     }
 
-    public String getActor() {
-        return actor;
+    public String getRating() {
+        return rating;
     }
 
-    public void setActor(String actor) {
-        this.actor = actor;
+    public void setRating(String rating) {
+        this.rating = rating;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 
     @Override
@@ -50,8 +59,9 @@ public class TvShow implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.photo);
         dest.writeString(this.title);
-        dest.writeString(this.description);
-        dest.writeString(this.actor);
+        dest.writeString(this.release);
+        dest.writeString(this.rating);
+        dest.writeString(this.url);
     }
 
     public TvShow() {
@@ -60,8 +70,9 @@ public class TvShow implements Parcelable {
     protected TvShow(Parcel in) {
         this.photo = in.readString();
         this.title = in.readString();
-        this.description = in.readString();
-        this.actor = in.readString();
+        this.release = in.readString();
+        this.rating = in.readString();
+        this.url = in.readString();
     }
 
     public static final Parcelable.Creator<TvShow> CREATOR = new Parcelable.Creator<TvShow>() {

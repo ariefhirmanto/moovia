@@ -7,7 +7,7 @@
     tools:context=".MovieFragment">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:background="#00BEDB"
@@ -22,7 +22,7 @@
         android:layout_marginEnd="300dp"
         android:alpha="0.25"
         android:background="@drawable/ic_circle"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/background"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="-25dp" />
 
@@ -44,7 +44,7 @@
         android:background="#8BEAF8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/background"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -54,10 +54,10 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Moovia"
+        android:text="@string/app_title"
         android:textColor="#fff"
         android:textSize="45sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -67,7 +67,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="Popular movie for you"
+        android:text="@string/popular_movie_for_you"
         android:textColor="#fff"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +85,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/background"
         app:layout_constraintVertical_bias="0.094">
 
         <androidx.recyclerview.widget.RecyclerView

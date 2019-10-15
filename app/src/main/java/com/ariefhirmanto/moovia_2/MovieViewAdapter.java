@@ -46,7 +46,6 @@ public class MovieViewAdapter extends RecyclerView.Adapter<MovieViewAdapter.Card
             .into(cardViewHolder.imgPhoto);
 
         cardViewHolder.tvTitle.setText(movie.getTitle());
-        cardViewHolder.tvStarring.setText(movie.getStarring());
         cardViewHolder.tvRating.setText(movie.getRating());
 
         cardViewHolder.btnDetail.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +66,7 @@ public class MovieViewAdapter extends RecyclerView.Adapter<MovieViewAdapter.Card
 
     public class CardViewHolder extends RecyclerView.ViewHolder {
         ImageView imgPhoto;
-        TextView tvTitle, tvStarring, tvRating;
+        TextView tvTitle, tvRating;
         Button btnDetail;
 
 
@@ -76,7 +75,6 @@ public class MovieViewAdapter extends RecyclerView.Adapter<MovieViewAdapter.Card
 
             imgPhoto = itemView.findViewById(R.id.img_item_photo);
             tvTitle = itemView.findViewById(R.id.tv_item_title);
-            tvStarring = itemView.findViewById(R.id.tv_item_starring);
             tvRating = itemView.findViewById(R.id.tv_item_rating);
             btnDetail = itemView.findViewById(R.id.btn_detail);
         }

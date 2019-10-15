@@ -5,10 +5,16 @@ import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
+import java.util.ArrayList;
 
 
 /**
@@ -30,6 +36,11 @@ public class TvShowFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    private Button btnDesc;
+    private RecyclerView rvData;
+    private ArrayList<TvShow> list = new ArrayList<>();
+
 
     public TvShowFragment() {
         // Required empty public constructor
@@ -66,7 +77,15 @@ public class TvShowFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tv_show, container, false);
+        View view = inflater.inflate(R.layout.fragment_tv_show, container, false);
+        FragmentActivity fragmentActivity = getActivity();
+        rvData = view.findViewById(R.id.rv_data);
+        rvData.setHasFixedSize(true);
+        TvShowData tvShowData = new TvShowData(fragmentActivity);
+        list.addAll(tvShowData.getListData());
+        showRecyclerView(fragmentActivity);
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -106,5 +125,11 @@ public class TvShowFragment extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+
+    private void showRecyclerView(FragmentActivity fragmentActivity) {
+        rvData.setLayoutManager(new LinearLayoutManager(fragmentActivity));
+        TvShowViewAdapter tvShowViewAdapter = new TvShowViewAdapter(list, fragmentActivity);
+        rvData.setAdapter(tvShowViewAdapter);
     }
 }

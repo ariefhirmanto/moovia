@@ -43,7 +43,7 @@
             tools:text="Judul Film" />
 
         <TextView
-            android:id="@+id/tv_item_starring"
+            android:id="@+id/tv_item_release"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_item_title"
@@ -86,14 +86,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_detail"
+                android:id="@+id/btn_link"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginLeft="5dp"
                 android:background="@drawable/ic_button_main"
-                android:text="View Description"
+                android:text="@string/get_your_show"
                 android:textSize="12sp"/>
 
         </LinearLayout>

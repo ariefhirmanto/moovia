@@ -7,16 +7,18 @@ import java.util.ArrayList;
 public class TvShowData {
     private Context context;
     public static String[] titleData;
-    public static String[] actorData;
-    public static String[] descriptionData;
+    public static String[] releaseData;
+    public static String[] ratingData;
     public static String[] photoData;
+    public static String[] urlData;
 
     public TvShowData(Context context) {
         this.context = context;
-        titleData = context.getResources().getStringArray(R.array.title);
-        actorData = context.getResources().getStringArray(R.array.starring);
-        descriptionData = context.getResources().getStringArray(R.array.description);
-        photoData = context.getResources().getStringArray(R.array.photo);
+        titleData = context.getResources().getStringArray(R.array.tv_title);
+        releaseData = context.getResources().getStringArray(R.array.tv_release);
+        ratingData = context.getResources().getStringArray(R.array.tv_rating);
+        photoData = context.getResources().getStringArray(R.array.tv_photo);
+        urlData = context.getResources().getStringArray(R.array.tv_url);
     }
 
 
@@ -27,9 +29,10 @@ public class TvShowData {
             TvShow tvShow = new TvShow();
 
             tvShow.setTitle(titleData[data]);
-            tvShow.setActor(actorData[data]);
-            tvShow.setDescription(descriptionData[data]);
+            tvShow.setRating(ratingData[data]);
+            tvShow.setRelease(releaseData[data]);
             tvShow.setPhoto(photoData[data]);
+            tvShow.setUrl(urlData[data]);
 
             list.add(tvShow);
         }

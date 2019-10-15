@@ -8,7 +8,7 @@
     tools:context=".TvShowFragment">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:background="#00BEDB"
@@ -24,7 +24,7 @@
         android:background="#8BEAF8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/background"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -33,7 +33,7 @@
         android:layout_marginEnd="332dp"
         android:alpha="0.25"
         android:background="@drawable/ic_circle"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/background"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="-29dp" />
 
@@ -44,11 +44,35 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="30dp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Get your favorite TV Show here"
+        android:text="@string/tv_show_title"
         android:textColor="#fff"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/background"
         tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:id="@+id/sv_data"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/background"
+        app:layout_constraintVertical_bias="0.094">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_data_movie">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

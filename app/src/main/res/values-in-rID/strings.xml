@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_title">Moovia</string>
+    <string name="popular_movie_for_you">Film-film terkenal untukmu</string>
+    <string name="view_description" tools:ignore="ExtraTranslation">Lihat Deskripsi</string>
+    <string name="tv_show_title">Dapatkan acara TV favoritmu disini</string>
+    <string name="setting">Pengaturan</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="english">Inggris</string>
+    <string name="get_your_show">Tonton disini</string>
+</resources>
