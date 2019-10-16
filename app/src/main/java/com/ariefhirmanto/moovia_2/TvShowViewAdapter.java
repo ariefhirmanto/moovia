@@ -51,14 +51,12 @@ public class TvShowViewAdapter extends RecyclerView.Adapter<TvShowViewAdapter.Ca
         cardViewHolder.tvRating.setText(tvShow.getRating());
 
         cardViewHolder.btnLink.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
-                String url = tvShow.getUrl();
-                Intent externalLink = new Intent(Intent.ACTION_VIEW);
-                externalLink.setData(Uri.parse(url));
-                context.startActivity(externalLink);
-//                context.finish();
+                TvShow tvShow = listTvShow.get(i);
+                Intent intent = new Intent(context, DetailTvShowActivity.class);
+                intent.putExtra(TvShowViewAdapter.TV_SHOW, tvShow);
+                context.startActivity(intent);
             }
         });
     }

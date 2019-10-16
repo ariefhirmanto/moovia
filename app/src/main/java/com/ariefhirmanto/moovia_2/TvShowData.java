@@ -10,6 +10,7 @@ public class TvShowData {
     public static String[] releaseData;
     public static String[] ratingData;
     public static String[] photoData;
+    public static String[] descriptionData;
     public static String[] urlData;
 
     public TvShowData(Context context) {
@@ -18,6 +19,7 @@ public class TvShowData {
         releaseData = context.getResources().getStringArray(R.array.tv_release);
         ratingData = context.getResources().getStringArray(R.array.tv_rating);
         photoData = context.getResources().getStringArray(R.array.tv_photo);
+        descriptionData = context.getResources().getStringArray(R.array.tv_description);
         urlData = context.getResources().getStringArray(R.array.tv_url);
     }
 
@@ -32,6 +34,7 @@ public class TvShowData {
             tvShow.setRating(ratingData[data]);
             tvShow.setRelease(releaseData[data]);
             tvShow.setPhoto(photoData[data]);
+            tvShow.setDescription(descriptionData[data]);
             tvShow.setUrl(urlData[data]);
 
             list.add(tvShow);

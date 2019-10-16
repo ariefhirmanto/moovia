@@ -8,6 +8,7 @@ public class TvShow implements Parcelable {
     private String title;
     private String release;
     private String rating;
+    private String description;
     private String url;
 
     public String getPhoto() {
@@ -42,6 +43,14 @@ public class TvShow implements Parcelable {
         this.rating = rating;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public String getUrl() {
         return url;
     }
@@ -61,6 +70,7 @@ public class TvShow implements Parcelable {
         dest.writeString(this.title);
         dest.writeString(this.release);
         dest.writeString(this.rating);
+        dest.writeString(this.description);
         dest.writeString(this.url);
     }
 
@@ -72,6 +82,7 @@ public class TvShow implements Parcelable {
         this.title = in.readString();
         this.release = in.readString();
         this.rating = in.readString();
+        this.description = in.readString();
         this.url = in.readString();
     }
 

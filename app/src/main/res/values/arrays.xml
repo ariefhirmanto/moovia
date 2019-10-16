@@ -165,4 +165,22 @@
         <item>https://www.netflix.com/title/80117803</item>
         <item>https://www.imdb.com/title/tt4687880/</item>
     </string-array>
+
+    <string-array name="tv_description">
+        <item>Peaky Blinders is a British crime drama television series created by Steven Knight, that premiered on BBC Two on 12 September 2013.
+            The series is primarily set in Birmingham, England, and follows the exploits of the Shelby crime family in the aftermath of World War I. </item>
+        <item>The Walking Dead is an American post-apocalyptic horror television series for AMC based on the comic book series by Robert Kirkman, Tony Moore, and Charlie Adlard.
+            The series features a large ensemble cast as survivors of a zombie apocalypse, trying to stay alive under near-constant threat of attacks from the mindless zombies, colloquially known as "walkers".</item>
+        <item>Big Mouth is an American adult animated sitcom created by Nick Kroll, Andrew Goldberg, Mark Levin, and Jennifer Flackett featuring teens based on Kroll and Goldberg\'s upbringing in Westchester County, New York, with Kroll voicing his fictional younger self.</item>
+        <item>Batwoman is an American superhero television series developed by Caroline Dries and Greg Berlanti.
+            It is based on the DC Comics character Batwoman, a costumed crime-fighter created by Geoff Johns, Grant Morrison, Greg Rucka, Mark Waid, and Keith Giffen, and is set in the Arrowverse, sharing continuity with the other television series of the universe.</item>
+        <item>American Horror Story (sometimes abbreviated as AHS) is an American anthology horror television series created by Ryan Murphy and Brad Falchuk for the basic cable network FX. </item>
+        <item>Vikings is a historical drama television series created and written by Michael Hirst for the History channel. Filmed in Ireland, it premiered on March 3, 2013, in Canada.
+            In January 2019, it was announced that the upcoming 20-episode sixth season, which was ordered on September 12, 2017, ahead of its fifth-season premiere, would be the final season of the series. The sixth season is set to premiere on December 4, 2019</item>
+        <item>Breaking Bad is an American neo-Western crime drama television series created and produced by Vince Gilligan. The show originally aired on AMC for five seasons, from January 20, 2008, to September 29, 2013.
+            Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White (Bryan Cranston), a struggling and depressed high school chemistry teacher who is diagnosed with stage-3 lung cancer. </item>
+        <item>The Politician is an American comedy-drama web television series created by Ryan Murphy, Brad Falchuk, and Ian Brennan and released on Netflix. The trio also serve as executive producers with Alexis Martin Woodall, Ben Platt, and Gwyneth Paltrow.</item>
+        <item>Raising Dion is an American superhero science fiction web television series that premiered October 4, 2019 on Netflix. It is based on the 2015 comic book and short film of the same name by Dennis Liu.</item>
+        <item>Goliath is an American legal drama web television series by Amazon Studios. The show was commissioned with a straight-to-series order of eight episodes on December 1, 2015, and premiered on October 13, 2016, on Prime Video.</item>
+    </string-array>
 </resources>

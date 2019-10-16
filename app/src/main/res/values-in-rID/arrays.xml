@@ -143,4 +143,28 @@
         <item>https://m.media-amazon.com/images/M/MV5BZTgyYjZjMzktNjk1OC00ZDdmLThmODEtNzUxMzcyY2Y1YzBmXkEyXkFqcGdeQXVyMjMzNTEyMzk@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
         <item>https://m.media-amazon.com/images/M/MV5BMTVhNWRmMmUtM2IxMi00NzhiLWIyZmMtMDJkYTNlYWZiNjc5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</item>
     </string-array>
+
+    <string-array name="tv_description">
+        <item>Peaky Blinders adalah serial televisi drama kriminal Inggris yang dibuat oleh Steven Knight, yang ditayangkan perdana di BBC Two pada 12 September 2013.
+            Serial ini terutama diatur di Birmingham, Inggris, dan mengikuti eksploitasi keluarga kejahatan Shelby setelah Perang Dunia I.
+        </item>
+        <item>The Walking Dead adalah serial televisi horor pasca-apokaliptik Amerika untuk AMC berdasarkan seri buku komik oleh Robert Kirkman, Tony Moore, dan Charlie Adlard.
+            Serial ini menampilkan ansambel besar sebagai orang yang selamat dari kiamat zombie, mencoba untuk tetap hidup di bawah ancaman serangan yang hampir konstan dari zombie yang tidak berpikiran, yang secara sehari-hari dikenal sebagai "pejalan kaki".
+        </item>
+        <item>Big Mouth adalah sitkom animasi dewasa Amerika yang dibuat oleh Nick Kroll, Andrew Goldberg, Mark Levin, dan Jennifer Flackett yang menampilkan remaja berdasarkan asuhan Kroll dan Goldberg di Westchester County, New York, dengan Kroll menyuarakan diri fiksinya yang lebih muda.</item>
+        <item>Batwoman adalah serial televisi superhero Amerika yang dikembangkan oleh Caroline Dries dan Greg Berlanti.
+            Ini didasarkan pada karakter DC Comics Batwoman, seorang pejuang kejahatan berkostum yang diciptakan oleh Geoff Johns, Grant Morrison, Greg Rucka, Mark Waid, dan Keith Giffen, dan diatur di Arrowverse, berbagi kesinambungan dengan serial televisi lain dari alam semesta . </item>
+        <item>American Horror Story (kadang-kadang disingkat AHS) adalah serial televisi horor antologi Amerika yang dibuat oleh Ryan Murphy dan Brad Falchuk untuk jaringan kabel dasar FX.</item>
+        <item>Viking adalah serial televisi drama sejarah yang dibuat dan ditulis oleh Michael Hirst untuk saluran History. Difilmkan di Irlandia, perdana pada 3 Maret 2013, di Kanada.
+            Pada Januari 2019, diumumkan bahwa musim keenam 20 episode mendatang, yang dipesan pada 12 September 2017, menjelang premier musim kelima, akan menjadi musim terakhir dari seri. Musim keenam akan tayang perdana pada 4 Desember 2019.
+        </item>
+        <item>Breaking Bad adalah serial televisi drama kejahatan neo-Barat Amerika yang dibuat dan diproduksi oleh Vince Gilligan. Acara ini awalnya ditayangkan di AMC selama lima musim, dari 20 Januari 2008, hingga 29 September 2013.
+            Ditetapkan dan difilmkan di Albuquerque, New Mexico, seri ini mengisahkan tentang Walter White (Bryan Cranston), seorang guru kimia sekolah menengah yang berjuang dan tertekan yang didiagnosis menderita kanker paru-paru stadium-3.
+        </item>
+        <item>The Politician adalah serial televisi web komedi-drama Amerika yang dibuat oleh Ryan Murphy, Brad Falchuk, dan Ian Brennan dan dirilis di Netflix. Ketiganya juga melayani sebagai produser eksekutif dengan Alexis Martin Woodall, Ben Platt, dan Gwyneth Paltrow.
+        </item>
+        <item>Raising Dion adalah serial televisi web fiksi ilmiah superhero Amerika yang ditayangkan perdana pada 4 Oktober 2019 di Netflix. Ini didasarkan pada buku komik 2015 dan film pendek dengan nama yang sama oleh Dennis Liu.
+        </item>
+        <item>Goliath adalah serial televisi web drama hukum Amerika oleh Amazon Studios. Acara ini ditugaskan dengan urutan delapan episode langsung pada tanggal 1 Desember 2015, dan ditayangkan perdana pada 13 Oktober 2016, di Prime Video. </item>
+    </string-array>
 </resources>
