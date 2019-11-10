@@ -18,5 +18,7 @@
     <string name="english">English</string>
     <string name="get_your_show">Get your show</string>
     <string name="get_your_ticket">Get your ticket!</string>
+    <string name="tv_show">TV Show</string>
+    <string name="settings">Settings</string>
 
 </resources>

@@ -1,4 +1,4 @@
-package com.ariefhirmanto.moovia_2;
+package com.ariefhirmanto.moovia_3;
 
 import android.net.Uri;
 import android.os.Bundle;

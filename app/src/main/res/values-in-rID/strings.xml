@@ -10,4 +10,6 @@
     <string name="english">English</string>
     <string name="get_your_show">Tonton disini</string>
     <string name="get_your_ticket">Dapatkan tiketmu!</string>
+    <string name="tv_show">Acara TV</string>
+    <string name="settings">Pengaturan</string>
 </resources>

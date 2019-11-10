@@ -1,7 +1,8 @@
-package com.ariefhirmanto.moovia_2;
+package com.ariefhirmanto.moovia_3;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,43 +18,44 @@ import com.bumptech.glide.request.RequestOptions;
 
 import java.util.ArrayList;
 
-public class MovieViewAdapter extends RecyclerView.Adapter<MovieViewAdapter.CardViewHolder> {
-    private ArrayList<Movie> listMovie;
+public class TvShowViewAdapter extends RecyclerView.Adapter<TvShowViewAdapter.CardViewHolder> {
+    private ArrayList<TvShow> listTvShow;
     private Context context;
-    public final static String MOVIE = "EXTRA_MOVIE";
+    public final static String TV_SHOW = "EXTRA_TV";
 //    public final static String URL = "url";
 
-    public MovieViewAdapter(ArrayList<Movie> list, Context context) {
+    public TvShowViewAdapter(ArrayList<TvShow> list, Context context) {
         this.context = context;
-        this.listMovie = list;
+        this.listTvShow = list;
     }
 
     @NonNull
     @Override
     public CardViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.item_data_movie, viewGroup, false);
+                .inflate(R.layout.item_data_tv, viewGroup, false);
         return new CardViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull CardViewHolder cardViewHolder, final int i) {
-        Movie movie = listMovie.get(i);
+        final TvShow tvShow = listTvShow.get(i);
 
         Glide.with(cardViewHolder.itemView.getContext())
-                .load(movie.getPhoto())
+                .load(tvShow.getPhoto())
                 .apply(new RequestOptions().override(350, 350))
-            .into(cardViewHolder.imgPhoto);
+                .into(cardViewHolder.imgPhoto);
 
-        cardViewHolder.tvTitle.setText(movie.getTitle());
-        cardViewHolder.tvRating.setText(movie.getRating());
+        cardViewHolder.tvTitle.setText(tvShow.getTitle());
+        cardViewHolder.tvRelease.setText(tvShow.getRelease());
+        cardViewHolder.tvRating.setText(tvShow.getRating());
 
-        cardViewHolder.btnDetail.setOnClickListener(new View.OnClickListener() {
+        cardViewHolder.btnLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Movie movie = listMovie.get(i);
-                Intent intent = new Intent(context, DetailActivity.class);
-                intent.putExtra(MovieViewAdapter.MOVIE, movie);
+                TvShow tvShow = listTvShow.get(i);
+                Intent intent = new Intent(context, DetailTvShowActivity.class);
+                intent.putExtra(TvShowViewAdapter.TV_SHOW, tvShow);
                 context.startActivity(intent);
             }
         });
@@ -61,13 +63,13 @@ public class MovieViewAdapter extends RecyclerView.Adapter<MovieViewAdapter.Card
 
     @Override
     public int getItemCount() {
-        return listMovie.size();
+        return listTvShow.size();
     }
 
     public class CardViewHolder extends RecyclerView.ViewHolder {
         ImageView imgPhoto;
-        TextView tvTitle, tvRating;
-        Button btnDetail;
+        TextView tvTitle, tvRelease, tvRating;
+        Button btnLink;
 
 
         public CardViewHolder(@NonNull View itemView) {
@@ -75,8 +77,9 @@ public class MovieViewAdapter extends RecyclerView.Adapter<MovieViewAdapter.Card
 
             imgPhoto = itemView.findViewById(R.id.img_item_photo);
             tvTitle = itemView.findViewById(R.id.tv_item_title);
+            tvRelease = itemView.findViewById(R.id.tv_item_release);
             tvRating = itemView.findViewById(R.id.tv_item_rating);
-            btnDetail = itemView.findViewById(R.id.btn_detail);
+            btnLink = itemView.findViewById(R.id.btn_link);
         }
     }
 }

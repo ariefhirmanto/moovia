@@ -1,6 +1,4 @@
-package com.ariefhirmanto.moovia_2;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.ariefhirmanto.moovia_3;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -14,10 +12,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.io.InputStream;
 
-public class DetailTvShowActivity extends AppCompatActivity {
-
+public class DetailActivity extends AppCompatActivity {
     private ImageView imgDetailPhoto;
     private TextView tvDetailTitle;
     private TextView tvDetailRating;
@@ -28,25 +27,25 @@ public class DetailTvShowActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_tv_show);
+        setContentView(R.layout.activity_detail);
 
-        tvDetailTitle = findViewById(R.id.item_tv_detail_title);
-        tvDetailRating = findViewById(R.id.item_tv_detail_rating);
-        tvDetailDescription = findViewById(R.id.item_tv_detail_description);
-        imgDetailPhoto = findViewById(R.id.img_tv_detail_photo);
-        btnLink = findViewById(R.id.btn_tv_link);
+        tvDetailTitle = findViewById(R.id.item_detail_title);
+        tvDetailRating = findViewById(R.id.item_detail_rating);
+        tvDetailDescription = findViewById(R.id.item_detail_description);
+        imgDetailPhoto = findViewById(R.id.img_detail_photo);
+        btnLink = findViewById(R.id.btn_link);
 
-        TvShow tvShow = getIntent().getParcelableExtra(TvShowViewAdapter.TV_SHOW);
-        String title = tvShow.getTitle();
-        String rating = "Rating : " + tvShow.getRating();
-        String description = tvShow.getDescription();
-        String photo = tvShow.getPhoto();
+        Movie movie = getIntent().getParcelableExtra(MovieViewAdapter.MOVIE);
+        String title = movie.getTitle();
+        String rating = "Rating : " + movie.getRating();
+        String description = movie.getDescription();
+        String photo = movie.getPhoto();
 
         tvDetailTitle.setText(title);
         tvDetailRating.setText(rating);
         tvDetailDescription.setText(description);
 
-        new DetailTvShowActivity.DownloadImageFromInternet(imgDetailPhoto).execute(photo);
+        new DownloadImageFromInternet(imgDetailPhoto).execute(photo);
 
         findViewById(R.id.btn_back).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,8 +58,8 @@ public class DetailTvShowActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                TvShow tvShowIntent = getIntent().getParcelableExtra(TvShowViewAdapter.TV_SHOW);
-                String url = tvShowIntent.getUrl();
+                Movie movieIntent = getIntent().getParcelableExtra(MovieViewAdapter.MOVIE);
+                String url = movieIntent.getUrl();
                 Intent externalLink = new Intent(Intent.ACTION_VIEW);
                 externalLink.setData(Uri.parse(url));
                 startActivity(externalLink);
@@ -94,5 +93,4 @@ public class DetailTvShowActivity extends AppCompatActivity {
             imageView.setImageBitmap(result);
         }
     }
-
 }
